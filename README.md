@@ -1,18 +1,28 @@
-# Vue 3 + TypeScript + Vite
+# Тестовое задание на вакансию Frontend разработчик ("Вуду Рокс")
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Задача: разработать одностраничное приложение, которое позволяет получать,  отображать и фильтровать данные с внешнего REST API. 
 
-## Recommended IDE Setup
+Источник данных - онлайн-сервис [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
+Необходимо получить и отобразить список публикаций /posts
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+<img width="617" alt="Картинка 1" src="https://github.com/Broomber/voodoorocks/assets/25414120/9cb60f29-0df3-43e8-88b4-40a80125f99b">
 
-## Type Support For `.vue` Imports in TS
+И добавить фильтрацию по автору публикации. Список авторов получать в /users
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
+<img width="621" alt="Картинка 2" src="https://github.com/Broomber/voodoorocks/assets/25414120/7d3c80c8-d3de-4494-8fc5-caea39ede79a">
 
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
 
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+Также нужно предусмотреть возможность корректного отображения страницы на разных устройствах. Другими словами, сделать адаптивную верстку.
+
+**Требования к технологиям**
+
+В качестве фреймворка рекомендуется использовать Vue.js, однако это не строгое требование. Если вы предпочтете решить задачу с помощью React или Angular - это не будет ошибкой, но предпочтительно Vue 2 / 3, поскольку основная работа будет именно на Vue
+
+Для верстки рекомендуется Bootstrap 4, но также допускается использование любого другого CSS-фреймворка на ваш выбор. Рекомендуется использовать препроцессоры для стилей (SASS, LESS).
+
+Дизайн макетов, представленных во вложении не обязательно повторять в точности до пикселя. Достаточно воспроизвести общий концепт
+
+**Требования к результату**
+
+Результат необходимо разместить на GitHub, или в приватном репозитории на Gitlab или Bitbucket и предоставить к нему доступ. Либо выслать в архиве.  
+На выполнение дается не более 10 календарных дней с момента отправки тестового задания
