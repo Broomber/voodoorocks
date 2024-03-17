@@ -5,11 +5,11 @@
 Источник данных - онлайн-сервис [jsonplaceholder.typicode.com](https://jsonplaceholder.typicode.com)
 Необходимо получить и отобразить список публикаций /posts
 
-<img width="617" alt="Картинка 1" src="https://github.com/Broomber/voodoorocks/assets/25414120/9cb60f29-0df3-43e8-88b4-40a80125f99b">
+<img width="617" alt="Картинка 1" src="https://github.com/Broomber/voodoorocks/assets/25414120/ee6e1ea6-d8ce-4b43-869a-9480f24fd49c">
 
 И добавить фильтрацию по автору публикации. Список авторов получать в /users
 
-<img width="621" alt="Картинка 2" src="https://github.com/Broomber/voodoorocks/assets/25414120/7d3c80c8-d3de-4494-8fc5-caea39ede79a">
+<img width="621" alt="Картинка 2" src="https://github.com/Broomber/voodoorocks/assets/25414120/68397922-ab2a-4a46-a296-9bf30feb0a05">
 
 
 Также нужно предусмотреть возможность корректного отображения страницы на разных устройствах. Другими словами, сделать адаптивную верстку.
