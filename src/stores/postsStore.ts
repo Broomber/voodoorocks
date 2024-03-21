@@ -12,7 +12,7 @@ export const useBlogStore = defineStore('blog', {
       FilteredAuthorsList: [] as Author[],
       filteredAuthorsIds: [] as number[],
       SearchQuery: "" as string,
-      isLoading: false as boolean
+      isLoading: true as boolean
     }
   },
   actions: {
