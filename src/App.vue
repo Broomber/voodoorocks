@@ -22,17 +22,19 @@ onMounted(() => {
     </div>
     <template v-else>
       <section class="search-section">
-        <SearchPanel />
+        <div class="row">
+          <div class="col col-md-3 offset-md-3">
+            <SearchPanel />
+          </div>
+        </div>
       </section>
       <section class="results-section">
-        <div class="container">
-          <div class="row row-cols-1 row-cols-md-3 results-grid">
-            <div class="col" v-for="post in blogStore.FilteredPostsList">
-              <PostCard :postDetails="post"></PostCard>
-            </div>
-            <div class="col" v-if="blogStore.FilteredPostsList.length === 0">
-              No posts found, please change your search query
-            </div>
+        <div class="row row-cols-1 row-cols-md-3 results-grid">
+          <div class="col" v-for="post in blogStore.FilteredPostsList">
+            <PostCard :postDetails="post"></PostCard>
+          </div>
+          <div class="col" v-if="blogStore.FilteredPostsList.length === 0">
+            No posts found, please change your search query
           </div>
         </div>
       </section>
