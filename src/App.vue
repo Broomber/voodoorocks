@@ -23,7 +23,7 @@ onMounted(() => {
     <template v-else>
       <section class="search-section">
         <div class="row">
-          <div class="col col-md-3 offset-md-3">
+          <div class="col col-md-4 offset-md-4">
             <SearchPanel />
           </div>
         </div>
